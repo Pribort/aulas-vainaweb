@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <h1>Bom dia</h1>
+  <!-- tudo que for colocar no formulario, tem que ser dentro do form. o action é o caminho de onde o formulario será enviado.  -->
+  <form action="">
+    <label for="nome">Nome: </label>
+    <input id="nome" name="nome" type="text" />
+    <br>
+    <br>
+    <label for="email">E-mail:
+      <input id="email" name="email" type="email" />
+    </label>
+    <br>
+    <br>
+    <label for="idade">Idade:
+      <input id="idade" name="idade" type="number" />
+    </label>
+    <br>
+    <br>
+    <label for="data">Data de Nascimento:
+      <input id="data" name="data" type="date" />
+    </label>
+    <br>
+    <br>
+    <label for="hora">hora:
+      <input id="hora" name="hora" type="time" />
+    </label>
+    <br>
+    <br>
+    <label for="telefone">Telefone:
+      <input id="telefone" name="telefone" type="tel" />
+    </label>
+    <br>
+    <br>
+    <label for="senha">Senha:
+      <input id="senha" name="senha" type="password" />
+    </label>
+    <br>
+    <br>
+
+    <!-- como selecionar 1 opção -->
+    <h3>Qual sua linguagem preferida?</h3>
+    <label for="html">HTML
+      <input id="html" name="favlang" type="radio" value="html">
+    </label>
+    <label for="css">CSS
+      <input id="css" name="favlang" type="radio" value="css">
+    </label>
+    <label for="javascript">JavaScript
+      <input id="javascript" name="favlang" type="radio" value="javascript">
+    </label>
+    <br>
+    <br>
+    <input id="termos" name="termos" type="checkbox">
+    <label for="termos">Aceito os termos</label>
+    <br>
+    <br>
+    <input id="comunidade" name="comunidade" type="checkbox">
+    <label for="comunidade">Participe da comunidade</label>
+
+
+    <input type="submit" value="mandar">
+  </form>
+</body>
+
+</html>
